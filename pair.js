@@ -783,7 +783,7 @@ case 'menu': {
     const totalMemory = Math.round(os.totalmem() / 1024 / 1024);
     
     let menuText = `
-*╭━〔 DIANA FREE BOT 〕━━┈⊷*
+*╭━〔🪲 DELTA THUS MINIBOT🪲〕━━┈⊷*
 *├▢* 💈ᴜsᴇʀ: @${m.sender.split('@')[0]}
 *├▢* 🚩ᴘʀᴇғɪx: .
 *├▢* ⏰ᴜᴘᴛɪᴍᴇ: ${hours}h ${minutes}m ${seconds}s
@@ -846,13 +846,13 @@ case 'menu': {
                   title: "🫂 ɢʀᴏᴜᴘ sᴇᴛᴛɪɴɢs",
                   highlight_label: 'Popular',
                   rows: [
-                    { title: "GROUP MENU", description: "ᴍɪɴɪ ʙᴏᴛ", id: `${config.PREFIX}group-menu` }
+                    { title: "GROUP MENU", description: "ᴅᴇʟᴛᴀ ᴛʜᴜs ᴍɪɴɪʙᴏᴛ", id: `${config.PREFIX}group-menu` }
                   ]
                 },
                 {
                   title: "OTHER MENU LIST",
                   rows: [
-                    { title: "OTHER-MENU", description: "ᴍɪɴɪ ʙᴏᴛ", id: `${config.PREFIX}other-menu` }
+                    { title: "OTHER-MENU", description: "ᴅᴇʟᴛᴀ ᴛʜᴜs ᴍɪɴɪʙᴏᴛ", id: `${config.PREFIX}other-menu` }
                    
                   ]
                 },
@@ -860,16 +860,14 @@ case 'menu': {
                   title: "LIST FUN",
                   highlight_label: 'Fun',
                   rows: [
-                    { title: "FUN-MENU", descriptioᴛʜᴜs  ᴛʜᴜs ᴍɪɴɪ ʙᴏᴛ", id: `${config.PREFIX}fun-menu` }
+                    { title: "FUN-MENU", description: "ᴅᴇʟᴛᴀ ᴛʜᴜs ᴍɪɴɪʙᴏᴛ", id: `${config.PREFIX}fun-menu` }
                     
                   ]
                 },
                 {
                   title: "🔧 ᴛᴏᴏʟs & ᴜᴛɪʟɪᴛɪᴇs",
                   rows: [
-                    { title: "TOOLS MENU", description: "ᴛʜᴜs ᴍɪɴɪ ʙᴏT", id: `${config.PREFIX}tools-menu` },
-
-                  ]
+                    { title: "TOOLS MENU", description: "ᴅᴇʟᴛᴀ ᴛʜᴜs ᴍɪɴɪ ʙᴏᴛ", id: `${config.PREFIX}tools-menu` }-men                 ]
                 }
               ]
             })
@@ -936,7 +934,7 @@ ${config.PREFIX}ᴀʟʟᴍᴇɴᴜ ᴛᴏ ᴠɪᴇᴡ ᴀʟʟ ᴄᴍᴅs
 *│*  *ᴜᴘᴛɪᴍᴇ*: ${hours}h ${minutes}m ${seconds}s
 *│*  *ᴍᴇᴍᴏʀʏ*: ${usedMemory}MB/${totalMemory}ᴍʙ
 *│*  *ᴄᴏᴍᴍᴀɴᴅs*: ${count}
-*│*  *ᴅᴇᴠ*: ᴍᴀᴅᴇ ʙʏ ᴅɪᴀɴᴀ ᴛᴇᴄʜ
+*│*  *ᴅᴇᴠ*: ᴍᴀᴅᴇ ʙʏ: ᴡᴇᴇᴅ ᴛᴇᴄʜ
 *╰────────••••───────⊷*
 
 *╭─『 ɢᴇɴᴇʀᴀʟ 』*
@@ -1719,7 +1717,7 @@ case 'song': {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363407561123100@newsletter',
-                    newsletterName: 'DELATA THUS MINIBOT',
+                    newsletterName: 'DELTA THUS MINIBOT',
                     serverMessageId: -1
                 }
             }
@@ -2516,7 +2514,7 @@ case "lovequote": {
                                 `🎯 *ᴛᴏ ᴡɪɴ*: ${to_win}\n` +
                                 `📈 *ᴄᴜʀʀᴇɴᴛ Rate*: ${crr}\n\n` +
                                 `🌐 *ʟɪɴᴋ*: ${link}`,
-                                'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇᴠ ᴛᴇᴄʜ'
+                                'ᴘᴏᴡᴇʀᴇᴅ ʙʏ weed ᴛᴇᴄʜ'
                             )
                         });
                         console.log('Message sent successfully.');
