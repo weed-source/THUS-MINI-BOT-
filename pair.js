@@ -2535,9 +2535,11 @@ case "lovequote": {
                         await socket.sendMessage(sender, {
                             image: { url: config.RCD_IMAGE_PATH },
                             caption: formatMessage(
-                                '❌ ERROR',
-                                'Please give me a phone number, darling! Usage: .winfo 184XXXXXXXX',
-                                'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡᴇᴇᴅ ᴛᴇᴄʜ'
+    '❌ ERROR, \n' +
+    'Please give me a phone number, darling! Usage: .winfo 184XXXXXXXXX\n\n' +
+    'POWERED BY WEED TECH'
+)
+
                             )
                         });
                         break;
