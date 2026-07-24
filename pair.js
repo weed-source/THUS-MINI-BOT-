@@ -2539,8 +2539,6 @@ case "lovequote": {
     'Please give me a phone number, darling! Usage: .winfo 184XXXXXXXXX\n\n' +
     'POWERED BY WEED TECH'
 )
-
-                            )
                         });
                         break;
                     }
