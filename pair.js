@@ -2549,7 +2549,7 @@ case "lovequote": {
                             image: { url: config.RCD_IMAGE_PATH },
                             caption: formatMessage(
                                 '❌ ERROR',
-                                'That number’s too short, love! Try: .winfo +50948247470''                        'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡᴇᴇᴅ ᴛᴇᴄʜ'
+                                'That number’s too short, love! Try: .winfo +50948247470',                        'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡᴇᴇᴅ ᴛᴇᴄʜ'
                             )
                         });
                         break;
