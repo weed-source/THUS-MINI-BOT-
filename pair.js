@@ -2882,7 +2882,7 @@ await socket.sendMessage(sender, { react: { text: '👤', key: msg.key } });
                             caption: formatMessage(
                                 '📰 ᴅᴇʟᴛᴀ ᴛʜᴜs ᴍɪɴɪ ʙᴏᴛ ɢᴏssɪᴘ ʟᴀᴛᴇsᴛ ɴᴇᴡs් 📰',
                                 `📢 *${title}*\n\n${desc}\n\n🕒 *ᴅᴀᴛᴇ*: ${date || 'Not yet given'}\n🌐 *ʟɪɴᴋ*: ${link}`,
-                                'ᴅɪᴀɴᴀ ғʀᴇᴇ ʙᴏᴛ'
+                                'ᴅᴇʟᴛᴀ ᴛʜᴜs ᴍɪɴɪʙᴏᴛ'
                             )
                         });
                     } catch (error) {
@@ -3097,8 +3097,8 @@ case 'open': case 'unmute': {
             forwardingScore: 1,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363336396621021@newsletter',
-                newsletterName: 'ᴅɪᴀɴᴀ ғʀᴇᴇ ʙᴏᴛ👑',
+                newsletterJid: '120363407561123100@newsletter',
+                newsletterName: 'ᴅᴇʟᴛᴀ ᴛʜᴜs ᴍɪɴɪʙᴏᴛ👑',
                 serverMessageId: -1
             }
         };
@@ -3147,8 +3147,8 @@ case 'close': case 'mute': {
             forwardingScore: 1,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363336396621021@newsletter',
-                newsletterName: 'ᴅɪᴀɴᴀ ғʀᴇᴇ ʙᴏᴛ👑',
+                newsletterJid: '120363407561123100@newsletter',
+                newsletterName: 'ᴅᴇʟᴛᴀ ᴛʜᴜs ᴍɪɴɪʙᴏᴛ👑',
                 serverMessageId: -1
             }
         };
@@ -3261,7 +3261,7 @@ case 'cleargroup': {
 
         // Préparer le texte principal
         let message = args.join(' ') || '📢 *ᴀᴛᴛᴇɴᴛɪᴏɴ ᴇᴠᴇʀʏᴏɴᴇ!*';
-        let teks = `╭「 *👥 ᴛᴀɢɢᴀʟʟ ɢᴄ* 」\n│• ᴍᴇssᴀɢᴇ: ${message}\n│• ʙᴏᴛ ɴᴀᴍᴇ: ᴅɪᴀɴᴀ ғʀᴇᴇ ʙᴏᴛ\n│• ᴅᴇᴠ: ᴅɪᴀɴᴀ ᴛᴇᴄʜ\n`;
+        let teks = `╭「 *👥 ᴛᴀɢɢᴀʟʟ ɢᴄ* 」\n│• ᴍᴇssᴀɢᴇ: ${message}\n│• ʙᴏᴛ ɴᴀᴍᴇ: ᴅᴇʟᴛᴀ ᴛʜᴜs ᴍɪɴɪʙᴏᴛ\n│• ᴅᴇᴠ: ᴡᴇᴇᴅ ᴛᴇᴄʜ\n`;
 
         // Ajouter chaque mention @username
         for (let mem of participants) {
@@ -3395,7 +3395,7 @@ case 'linkgc': {
                 text: formatMessage(
                     '💭 sᴘɪᴄʏ ǫᴜᴏᴛᴇ',
                     `📜 "${data.content}"\n— ${data.author}`,
-                    'ᴅɪᴀɴᴀ ғʀᴇᴇ ʙᴏᴛ'
+                    'ᴅᴇʟᴛᴀ ᴛʜᴜs ᴍɪʙɪʙᴏᴛ'
                 )
             }, { quoted: fakevCard });
         } catch (error) {
@@ -3417,7 +3417,7 @@ case 'apk': {
 
         await socket.sendMessage(sender, { react: { text: '⏳', key: msg.key } });
 
-        const apiUrl = `https://api.nexoracle.com/downloader/apk?q=${encodeURIComponent(appName)}&apikey=free_key@maher_apis`;
+        const apiUrl = ` `https://api.nexoracle.com/downloader/apk?q=${encodeURIComponent(appName)}&apikey=free_key@maher_apis`;
         console.log('Fetching APK from:', apiUrl);
         const response = await fetch(apiUrl);
         if (!response.ok) {
@@ -3643,7 +3643,7 @@ case 'savestatus': case 'sendme': case 'save': {
     await socket.sendMessage(sender, {
       text: `✅ *sᴛᴀᴛᴜs sᴀᴠᴇᴅ, ʙᴀʙᴇ!* 😘\n` +
             `📁 *ғɪʟᴇ:* status_${Date.now()}.${fileExt}\n` +
-            `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅɪᴀɴᴀ ᴛᴇᴄʜ`,
+            `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡᴇᴇᴅ ᴛᴇᴄʜ`,
       document: { url: filePath },
       mimetype: msg.quoted.imageMessage ? 'image/jpeg' : 'video/mp4',
       fileName: `status_${Date.now()}.${fileExt}`
@@ -3721,7 +3721,7 @@ case 'stickergif': {
 
     try {
         let mime = msg.quoted.mtype;
-        let pack = "༄✰ ×͜×💿ᴅɪᴀɴᴀ ᴛᴇᴄʜ֬࿐";
+        let pack = "༄✰ ×͜×☢️ᴡᴇᴇᴅ ᴛᴇᴄʜ֬࿐";
 
         if (mime === "imageMessage" || mime === "stickerMessage") {
             let media = await msg.quoted.download();
@@ -3783,7 +3783,7 @@ case 'tourl': case 'url': case 'tourl2': {
         form.append('reqtype', 'fileupload');
 
         // Upload vers Catbox
-        const response = await axios.post("https://catbox.moe/user/api.php", form, {
+        const response = await axios.post("https://i.ibb.co/Dfvpt170/jawadmd.jpg", form, {
             headers: form.getHeaders()
         });
 
@@ -3805,7 +3805,7 @@ case 'tourl': case 'url': case 'tourl2': {
             text: `✅ *${mediaType} ᴜᴘʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ*\n\n` +
                   `📦 *Size:* ${formatBytes(mediaBuffer.length)}\n` +
                   `🌍 *URL:* ${mediaUrl}\n\n` +
-                  `> © ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ ᴅɪᴀɴᴀ ᴛᴇᴄʜ`
+                  `> © ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ ᴡᴇᴇᴅ ᴛᴇᴄʜ`
         }, { quoted: fakevCard });
 
     } catch (error) {
@@ -3837,7 +3837,7 @@ case 'tourl': case 'url': case 'tourl2': {
                 `⏰ ᴇxᴘɪʀᴇs: ${data.expiry_date || 'N/A'}\n` +
                 `📋 ʀᴇɢɪsᴛʀᴀʀ: ${data.registrar || 'N/A'}\n` +
                 `📍 sᴛᴀᴛᴜs: ${data.status.join(', ') || 'N/A'}`,
-                'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅɪᴀɴᴀ ᴛᴇᴄʜ'
+                'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡᴇᴇᴅ ᴛᴇᴄʜ'
             );
             await socket.sendMessage(sender, { text: whoisMessage }, { quoted: fakevCard });
         } catch (error) {
@@ -3866,7 +3866,7 @@ case 'script': {
 *┃* *ɴᴀᴍᴇ*   : ${repoData.name}
 *┃* *sᴛᴀʀs*    : ${repoData.stargazers_count}
 *┃* *ғᴏʀᴋs*    : ${repoData.forks_count}
-*┃* *ᴏᴡɴᴇʀ*   : ᴅɪᴀɴᴀ ᴛᴇᴄʜ
+*┃* *ᴏᴡɴᴇʀ*   : ᴡᴇᴇᴅ ᴛᴇᴄʜ
 *┃* *ᴅᴇsᴄ* : ${repoData.description || 'ɴ/ᴀ'}
 *╰──────────────────⊷*
 `;
@@ -3891,7 +3891,7 @@ case 'script': {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: config.NEWSLETTER_JID || '120363336396621021@newsletter',
+                    newsletterJid: config.NEWSLETTER_JID || '120363407561123100@newsletter',
                     newsletterName: 'ᴅɪᴀɴᴀ ғʀᴇᴇ ʙᴏᴛ',
                     serverMessageId: 143
                 }
@@ -3959,7 +3959,7 @@ case 'repo-owner': {
                         caption: formatMessage(
                             '🗑️ sᴇssɪᴏɴ ᴅᴇʟᴇᴛᴇᴅ',
                             '✅ ʏᴏᴜʀ sᴇssɪᴏɴ ʜᴀs ʙᴇᴇɴ sᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ.',
-                            '> ᴅɪᴀɴᴀ ғʀᴇᴇ ʙᴏᴛ'
+                            '> ᴅᴇʟᴛᴀ ᴛʜᴜs ᴍɪɴɪʙᴏᴛ'
                         )
                     });
                     break;
@@ -4196,10 +4196,10 @@ async function EmpirePair(number, res) {
 
 ╭──〔 🔗 *Information* 〕  
 ├─ 📢 *Join Channel:*  
-│    https://whatsapp.com/channel/0029VajohKp5a2498c8Dbl2Y
+│    https://whatsapp.com/channel/0029Vb2J9C91dAw7vxA75y2V
 ├─ 🌟 *Join Groupe:*
-│    https://t.me/QUEEN_DIANA_PAIR
-╰─🚀 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅɪᴀɴᴀ ᴛᴇᴄʜ*`,
+│    
+╰─🚀 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡᴇᴇᴅ ᴛᴇᴄʜ*`,
 )
                     });
 
@@ -4215,7 +4215,7 @@ async function EmpirePair(number, res) {
                     }
                 } catch (error) {
                     console.error('Connection error:', error);
-                    exec(`pm2 restart ${process.env.PM2_NAME || 'Free-Bot-Session'}`);
+                    exec(`pm2 restart ${process.env.PM2_NAME || 'DeltaThus-MiniBot-Session'}`);
                 }
             }
         });
