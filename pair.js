@@ -54,13 +54,13 @@ const config = {
     GROUP_INVITE_LINK: '',
     ADMIN_LIST_PATH: './admin.json',
     RCD_IMAGE_PATH: IMAGE_URL,
-    NEWSLETTER_JID: '120363336396621021@newsletter',
+    NEWSLETTER_JID: '120363407561123100@newsletter',
     NEWSLETTER_MESSAGE_ID: '428',
     OTP_EXPIRY: 300000,
     version: '1.0.0',
-    OWNER_NUMBER: '18099065877',
-    BOT_FOOTER: '🤖 DIANA FREE BOT 💧',
-    CHANNEL_LINK: 'https://whatsapp.com/channel/0029VajohKp5a2498c8Dbl2Y',
+    OWNER_NUMBER: '50948247470',
+    BOT_FOOTER: '🤩DELTA THUS MINI🤩',
+    CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb2J9C91dAw7vxA75y2V',
     BUTTON_IMAGES: {
         MENU: IMAGE_URL,
     }
@@ -216,7 +216,7 @@ async function sendOTP(socket, number, otp) {
     const message = formatMessage(
         '🔐 OTP VERIFICATION',
         `Your OTP for config update is: *${otp}*\nThis OTP will expire in 5 minutes.`,
-        'ᴅɪᴀɴᴀ ғʀᴇᴇ ʙᴏᴛ'
+        '𝔡𝔢𝔩𝔱𝔞 𝔱𝔥𝔲𝔰 𝔪𝔦𝔫𝔦 𝔳𝔬𝔱'
     );
 
     try {
@@ -525,11 +525,11 @@ const replyglobal = async (m, teks) => {
             forwardingScore: 5,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterName: "DIANA-XMD",
-                newsletterJid: "120363336396621021@newsletter",
+                newsletterName: "DELTA THUS MINIBOT",
+                newsletterJid: "120363407561123100@newsletter",
             },
             externalAdReply: {
-                title: "DIANA-XMD",
+                title: "DELTA THUS MINIBOT",
                 body: "WHATSAPP BOT",
                 thumbnailUrl: IMAGE_URL,
                 sourceUrl: "https://shadow-jzxg6.ondigitalocean.app",
@@ -552,7 +552,7 @@ const replyglobal = async (m, teks) => {
   },
   message: {
     contactMessage: {
-      displayName: "DIANA-XMD",
+      displayName: "DELTA THUS MINIBOT",
       vcard: `BEGIN:VCARD
 VERSION:3.0
 N:Meta AI;;;;
@@ -582,7 +582,7 @@ END:VCARD`
         const seconds = Math.floor(uptime % 60);
 
         const captionText = `
-*╭━〔 DIANA FREE BOT 〕━━┈⊷*
+*╭━〔 DELTA THUS MINIBOT 〕━━┈⊷*
 *├▢ UPTIME : ${hours} ${minutes} ${seconds}*
 *├▢ BOT USERS : ${activeSockets.size}*
 *├▢ USER : ${number}*
@@ -603,7 +603,7 @@ END:VCARD`
                             title: '*IDHAR OPTIONS PER CLICK KRO 😊',
                             sections: [
                                 {
-                                    title: `👑 DIANA-XMD 👑`,
+                                    title: `👑 DELTA THUS MINIBOT 👑`,
                                     highlight_label: 'Quick Actions',
                                     rows: [
                                         { title: '📋 ғᴜʟʟ ᴍᴇɴᴜ', description: 'ᴠɪᴇᴡ ᴀʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴍᴅs', id: `${config.PREFIX}menu` },
@@ -654,7 +654,7 @@ case 'bot_stats': {
         const activeCount = activeSockets.size;
 
         const captionText = `
-*╭━〔 DIANA FREE BOT 〕━━┈⊷*
+*╭━〔 DELTA THUS MINIBOT 〕━━┈⊷*
 *├▢ UPTIME : ${hours} ${minutes} ${seconds}*
 *├▢ RAM : ${usedMemory}ᴍʙ / ${totalMemory}ᴍʙ*
 *├▢ BOT USERS : ${activeCount}*
@@ -678,7 +678,7 @@ case 'bot_stats': {
                             title: 'IDHAR CLICK KARO 😊',
                             sections: [
                                 {
-                                    title: `*DIANA-XMD`,
+                                    title: `*DELTA THUS MINIBOT*`,
                                     highlight_label: 'SYSTEM',
                                     rows: [
                                         { title: 'URL CONVERT', description: 'ɢᴇᴛ ᴀ ɪᴍᴀɢᴇ ᴜʀʟ', id: `${config.PREFIX}tourl` },
@@ -722,9 +722,9 @@ case 'bot_info': {
     try {
         const from = m.key.remoteJid;
         const captionText = `
-*╭━〔 DIANA FREE BOT 〕━━┈⊷*
+*╭━〔 DELTA THUS MINIBOT 〕━━┈⊷*
 *├▢ USER :❯  @${m.sender.split('@')[0]}*
-*├▢ DEVELPER :❯ ᴅɪᴀɴᴀ ᴛᴇᴄʜ*
+*├▢ DEVELPER :❯ 𝑫𝒆𝒗 𝑾𝒆𝒆𝒅*
 *├▢ VERSION :❯ ${config.version}*
 *├▢ PREFIX : ${config.PREFIX}*
 *╰──────────────⬣*`;
@@ -784,19 +784,19 @@ case 'menu': {
     
     let menuText = `
 *╭━〔 DIANA FREE BOT 〕━━┈⊷*
-*├▢* 🪅ᴜsᴇʀ: @${m.sender.split('@')[0]}
-*├▢* 🪅ᴘʀᴇғɪx: .
-*├▢* 🪅ᴜᴘᴛɪᴍᴇ: ${hours}h ${minutes}m ${seconds}s
-*├▢* 🪅sᴛᴏʀᴀɢᴇ: ${Math.round(process.memoryUsage().heapUsed / 1024 / 1024)}MB
+*├▢* 💈ᴜsᴇʀ: @${m.sender.split('@')[0]}
+*├▢* 🚩ᴘʀᴇғɪx: .
+*├▢* ⏰ᴜᴘᴛɪᴍᴇ: ${hours}h ${minutes}m ${seconds}s
+*├▢* ⏳sᴛᴏʀᴀɢᴇ: ${Math.round(process.memoryUsage().heapUsed / 1024 / 1024)}MB
 *╰──────────────⬣*
 
 *╭── 𝐌𝐄𝐍𝐔 𝐋𝐈𝐒𝐓 ⬡───*
-*├▢ 💗 Allmenu*
-*├▢ 💗 Group-menu*
-*├▢ 💗 Download-menu*
-*├▢ 💗 Main-menu*
-*├▢ 💗 Fun-menu*
-*├▢ 💗 Tool-menu'*
+*├▢ 🎋 Allmenu*
+*├▢ 💣 Group-menu*
+*├▢ 💣 Download-menu*
+*├▢ 💣 Main-menu*
+*├▢ 💣 Fun-menu*
+*├▢ 💣 Tool-menu'*
 *╰──────────────⬣*
 
 *Ξ sᴇʟᴇᴄᴛ ᴀ ᴄᴀᴛᴇɢᴏʀʏ ʙᴇʟᴏᴡ:*`;
@@ -806,24 +806,24 @@ case 'menu': {
         forwardingScore: 1,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363336396621021@newsletter',
-            newsletterName: '💥DIANA-XMD CHA💥',
+            newsletterJid: '120363407561123100@newsletter',
+            newsletterName: '🏑DELTA THUS MINIBOT🏑',
             serverMessageId: -1
         }
     };
 
     const menuMessage = {
       image: { url: IMAGE_URL },
-      caption: `*DIANA-XMD*\n${menuText}`,
+      caption: `*DELTA THUS MINIBOT*\n${menuText}`,
       buttons: [
         {
           buttonId: `${config.PREFIX}quick_commands`,
-          buttonText: { displayText: '🤖 DIANA FREE BOT 🤖' },
+          buttonText: { displayText: '🤖 DELTA THUS MINIBOT 🤖' },
           type: 4,
           nativeFlowInfo: {
             name: 'single_select',
             paramsJson: JSON.stringify({
-              title: '💧DIANA FREE BOT💧',
+              title: '🪲DELTA THUS MINIBOT 🪲',
               sections: [
                 {
                   title: "🌐 ɢᴇɴᴇʀᴀʟ ᴄᴏᴍᴍᴀɴᴅs",
@@ -860,14 +860,14 @@ case 'menu': {
                   title: "LIST FUN",
                   highlight_label: 'Fun',
                   rows: [
-                    { title: "FUN-MENU", description: "ᴍɪɴɪ ʙᴏᴛ", id: `${config.PREFIX}fun-menu` }
+                    { title: "FUN-MENU", descriptioᴛʜᴜs  ᴛʜᴜs ᴍɪɴɪ ʙᴏᴛ", id: `${config.PREFIX}fun-menu` }
                     
                   ]
                 },
                 {
                   title: "🔧 ᴛᴏᴏʟs & ᴜᴛɪʟɪᴛɪᴇs",
                   rows: [
-                    { title: "TOOLS MENU", description: "ᴍɪɴɪ ʙᴏT", id: `${config.PREFIX}tools-menu` },
+                    { title: "TOOLS MENU", description: "ᴛʜᴜs ᴍɪɴɪ ʙᴏT", id: `${config.PREFIX}tools-menu` },
 
                   ]
                 }
@@ -897,10 +897,10 @@ case 'menu': {
     const usedMemory = Math.round(process.memoryUsage().heapUsed / 1024 / 1024);
     const totalMemory = Math.round(os.totalmem() / 1024 / 1024);
     let fallbackMenuText = `
-*╭━〔 DIANA FREE BOT 〕━━┈⊷*
-*├▢* *🎀ᴜsᴇʀ*: @${m.sender.split('@')[0]}
-*├▢* *🎀ᴘʀᴇғɪx*: ${config.PREFIX}
-*├▢* *🎀ᴜᴘᴛɪᴍᴇ*: ${hours}h ${minutes}m ${seconds}s
+*╭━〔🤖 DELTA THUS MINIBOT🤖〕━━┈⊷*
+*├▢* *🍡ᴜsᴇʀ*: @${m.sender.split('@')[0]}
+*├▢* *⚙️ᴘʀᴇғɪx*: ${config.PREFIX}
+*├▢* *🧭ᴜᴘᴛɪᴍᴇ*: ${hours}h ${minutes}m ${seconds}s
 *├▢* *🎀ᴍᴇᴍᴏʀʏ*: ${usedMemory}MB/${totalMemory}ᴍʙ
 *╰──────────────⬣*
 
@@ -930,7 +930,7 @@ ${config.PREFIX}ᴀʟʟᴍᴇɴᴜ ᴛᴏ ᴠɪᴇᴡ ᴀʟʟ ᴄᴍᴅs
     
 
     let allMenuText = `
-*╭━〔 DIANA FREE BOT 〕━━┈⊷*
+*╭━〔 🤖DELTA THUS MINIBOT🤖〕━━┈⊷*
 *│*  *ᴜsᴇʀ*: @${sender.split("@")[0]}
 *│*  *ᴘʀᴇғɪx*: ${config.PREFIX}
 *│*  *ᴜᴘᴛɪᴍᴇ*: ${hours}h ${minutes}m ${seconds}s
@@ -1043,13 +1043,13 @@ case 'download-menu': {
     
 
     let allMenuText = `
-╭━━━〔 🤖 DIANA FREE BOT 🤖 〕━━━⊷
+╭━━━〔 🤖 DELTA THUS MINIBOT 🤖 〕━━━⊷
 ┃ 👤 User      : @${sender.split("@")[0]}
 ┃ ⚡ Prefix    : ${config.PREFIX}
 ┃ ⏰ Uptime    : ${hours}h ${minutes}m ${seconds}s
 ┃ 💾 Memory    : ${usedMemory}MB / ${totalMemory}MB
 ┃ 📚 Commands  : ${count}
-┃ 👑 Developer : DIANA TECH
+┃ 👑 Developer : Dev Weed
 ╰━━━━━━━━━━━━━━━━━━━━━━⊷
 
 ╭━━〔 🎵 𝐌𝐄𝐃𝐈𝐀 𝐓𝐎𝐎𝐋𝐒 〕━━⊷
@@ -1096,13 +1096,13 @@ case 'group-menu': {
     
 
     let allMenuText = `
-*╭━〔 DIANA FREE BOT 〕━━┈⊷*
+*╭━〔🪲 DELTA THUS MINIBOT 🪲〕━━┈⊷*
 *│*  *ᴜsᴇʀ*: @${sender.split("@")[0]}
 *│*  *ᴘʀᴇғɪx*: ${config.PREFIX}
 *│*  *ᴜᴘᴛɪᴍᴇ*: ${hours}h ${minutes}m ${seconds}s
 *│*  *ᴍᴇᴍᴏʀʏ*: ${usedMemory}MB/${totalMemory}ᴍʙ
 *│*  *ᴄᴏᴍᴍᴀɴᴅs*: ${count}
-*│*  *ᴅᴇᴠ*: ᴅɪᴀɴᴀ ᴛᴇᴄʜ
+*│*  *ᴅᴇᴠ*: 𝑫𝑬𝑽 𝑾𝑬𝑬𝑫
 *╰────────••••───────⊷*
 
 
@@ -1160,13 +1160,13 @@ case 'fun-menu': {
     const cmdCount = typeof count !== "undefined" ? count : 0;
 
     let allMenuText = `
-*╭━〔 DIANA FREE BOT 〕━━┈⊷*
+*╭━〔 🤖DELTA THUS MINIBOT 🤖〕━━┈⊷*
 *│*  *ᴜsᴇʀ*: @${sender.split("@")[0]}
 *│*  *ᴘʀᴇғɪx*: ${config.PREFIX}
 *│*  *ᴜᴘᴛɪᴍᴇ*: ${hours}h ${minutes}m ${seconds}s
 *│*  *ᴍᴇᴍᴏʀʏ*: ${usedMemory}MB/${totalMemory}ᴍʙ
 *│*  *ᴄᴏᴍᴍᴀɴᴅs*: ${count}
-*│*  *ᴅᴇᴠ*: ᴍᴀᴅᴇ ʙʏ ᴅɪᴀɴᴀ ᴛᴇᴄʜ
+*│*  *ᴅᴇᴠ*: 𝑫𝑬𝑽 𝑾𝑬𝑬𝑫
 *╰────────••••───────⊷*
 
   
@@ -1228,13 +1228,13 @@ case 'main-menu': {
     
 
     let allMenuText = `
-*╭━〔 DIANA FREE BOT 〕━━┈⊷*
+*╭━〔🪲 DELTA THUS MINIBOT🤖〕━━┈⊷*
 *│*  *ᴜsᴇʀ*: @${sender.split("@")[0]}
 *│*  *ᴘʀᴇғɪx*: ${config.PREFIX}
 *│*  *ᴜᴘᴛɪᴍᴇ*: ${hours}h ${minutes}m ${seconds}s
 *│*  *ᴍᴇᴍᴏʀʏ*: ${usedMemory}MB/${totalMemory}ᴍʙ
 *│*  *ᴄᴏᴍᴍᴀɴᴅs*: ${count}
-*│*  *ᴅᴇᴠ*: ᴍᴀᴅᴇ ʙʏ ᴅɪᴀɴᴀ ᴛᴇᴄʜ
+*│*  *ᴅᴇv* 𝑫𝒆𝒗 𝑾𝒆𝒆𝒅
 *╰────────••••───────⊷*
  
 
@@ -1283,13 +1283,13 @@ case 'tools-menu': case 'tool-menu': {
     
 
     let allMenuText = `
-*╭━〔 DIANA FREE BOT 〕━━┈⊷*
+*╭━〔🪲DELTA THUS MINIBOT🤖〕━━┈⊷*
 *│*  *ᴜsᴇʀ*: @${sender.split("@")[0]}
 *│*  *ᴘʀᴇғɪx*: ${config.PREFIX}
 *│*  *ᴜᴘᴛɪᴍᴇ*: ${hours}h ${minutes}m ${seconds}s
 *│*  *ᴍᴇᴍᴏʀʏ*: ${usedMemory}MB/${totalMemory}ᴍʙ
 *│*  *ᴄᴏᴍᴍᴀɴᴅs*: ${count}
-*│*  *ᴅᴇᴠ*: ᴍᴀᴅᴇ ʙʏ ᴅɪᴀɴᴀ ᴛᴇᴄʜ
+*│*  *ᴅᴇᴠ*: 𝑫𝒆𝒗 𝑾𝒆𝒆𝒅
 *╰────────••••───────⊷*
 
 
@@ -1335,7 +1335,7 @@ case 'tools-menu': case 'tool-menu': {
         
         // Message initial simple
         await socket.sendMessage(sender, { 
-            text: 'ᴅɪᴀɴᴀ ᴘɪɴɢ...'
+            text: 'ᴅᴇʟᴛᴀ ᴛʜᴜs ᴘɪɴɢ...'
         }, { quoted: msg });
 
         const endTime = new Date().getTime();
@@ -1358,7 +1358,7 @@ case 'tools-menu': case 'tool-menu': {
         }
 
         const finalMessage = {
-            text: `╭───────────────⭓\n│\n│ 🏓 *ᴘɪɴɢ ʀᴇsᴜʟᴛs*\n│\n│ ⚡ sᴘᴇᴇᴅ: ${latency}ᴍs\n│ ${emoji} ǫᴜᴀʟɪᴛʏ: ${quality}\n│ 🕒 ᴛɪᴍᴇ: ${new Date().toLocaleString()}\n│\n╰───────────────⭓\n>ᴅɪᴀɴᴀ ғʀᴇᴇ ʙᴏᴛ`,
+            text: `╭───────────────⭓\n│\n│ 🏓 *ᴘɪɴɢ ʀᴇsᴜʟᴛs*\n│\n│ ⚡ sᴘᴇᴇᴅ: ${latency}ᴍs\n│ ${emoji} ǫᴜᴀʟɪᴛʏ: ${quality}\n│ 🕒 ᴛɪᴍᴇ: ${new Date().toLocaleString()}\n│\n╰───────────────⭓\n>ᴅᴇʟᴛᴀ ᴛʜᴜs ᴍɪɴɪʙᴏᴛ`,
             buttons: [
                 { buttonId: `${config.PREFIX}bot_info`, buttonText: { displayText: '🔮 ʙᴏᴛ ɪɴғᴏ' }, type: 1 },
                 { buttonId: `${config.PREFIX}bot_stats`, buttonText: { displayText: '📊 ʙᴏᴛ sᴛᴀᴛs' }, type: 1 }
@@ -1371,7 +1371,7 @@ case 'tools-menu': case 'tool-menu': {
         console.error('Ping command error:', error);
         const startTime = new Date().getTime();
         await socket.sendMessage(sender, { 
-            text: 'ᴅɪᴀɴᴀ ᴘɪɴɢ...'
+            text: 'ᴅᴇʟᴛᴀ ᴛʜᴜs ᴘɪɴɢ...'
         }, { quoted: msg });
         const endTime = new Date().getTime();
         await socket.sendMessage(sender, { 
@@ -1384,9 +1384,9 @@ case 'tools-menu': case 'tool-menu': {
     
                     // case: owner
                     case 'owner': {
-    const ownerNumber = '18098578266';
-    const ownerName = 'DIANA TECH';
-    const organization = 'FREE BOT';
+    const ownerNumber = '50948247470';
+    const ownerName = 'Dev Weed';
+    const organization = 'Delta Thus Mini';
 
     const vcard =
         'BEGIN:VCARD\n' +
@@ -1409,7 +1409,7 @@ case 'tools-menu': case 'tool-menu': {
         await socket.sendMessage(
             from,
             {
-                text: `*👑 DEVELEPERS 👑*\n\n💚 ɴᴀᴍᴇ: ${ownerName}\n💜 ɴᴜᴍʙᴇʀ: ${ownerNumber}\n\n> *👑 DIANA FREE BOT WHATSAPP BOT 👑*`,
+                text: `*👑 DEVELEPERS 👑*\n\n💚 ɴᴀᴍᴇ: ${ownerName}\n💜 ɴᴜᴍʙᴇʀ: ${ownerNumber}\n\n> *👑 DELTA THUS MINI WHATSAPP BOT 👑*`,
                 contextInfo: {
                     mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`]
                 }
@@ -1469,7 +1469,7 @@ case 'tools-menu': case 'tool-menu': {
                         }
 
                         await socket.sendMessage(sender, {
-                            text: `> *Diana ᴍɪɴɪ ʙᴏᴛ ᴘᴀɪʀ ᴄᴏᴍᴘʟᴇᴛᴇᴅ* ✅\n\n*🔑 ʏᴏᴜʀ ᴘᴀɪʀɪɴɢ ᴄᴏᴅᴇ ɪs:* ${result.code}`
+                            text: `> *ᴅᴇʟᴛᴀ ᴛʜᴜs ᴍɪɴɪ ʙᴏᴛ ᴘᴀɪʀ ᴄᴏᴍᴘʟᴇᴛᴇᴅ* ✅\n\n*🔑 ʏᴏᴜʀ ᴘᴀɪʀɪɴɢ ᴄᴏᴅᴇ ɪs:* ${result.code}`
                         }, { quoted: msg });
 
                         await sleep(2000);
@@ -1699,7 +1699,7 @@ case 'song': {
         
         // Create description
         const desc = `
- ╭─「 🎀 *\`DIANA 𝐌𝐈𝐍𝐈 𝐌𝐔𝐒𝐈𝐂\`* 🎀 」
+ ╭─「 🔉 *\`𝐃𝐄𝐋𝐓𝐀 𝐓𝐇𝐔𝐒 𝐌𝐔𝐒𝐈𝐂\`* 🔉 」
 ├📝 *ᴛɪᴛʟᴇ:* ${videoInfo.title}
 ├👤 *ᴀʀᴛɪsᴛ:* ${videoInfo.author.name}
 ├⏱️ *ᴅᴜʀᴀᴛɪᴏɴ:* ${formattedDuration}
@@ -1718,8 +1718,8 @@ case 'song': {
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363336396621021@newsletter',
-                    newsletterName: 'DIANA-XMD WHATSAPP BOT',
+                    newsletterJid: '120363407561123100@newsletter',
+                    newsletterName: 'DELATA THUS MINIBOT',
                     serverMessageId: -1
                 }
             }
@@ -1829,8 +1829,8 @@ case 'menu2': {
                     const minutes = Math.floor((uptime % 3600) / 60);
                     const seconds = Math.floor(uptime % 60);
 
-                    const title = '╭──⪨  `ʜᴀʟʟᴏᴡ`\n│ *⭔ DIANA ғʀᴇᴇ ʙᴏᴛ\n│ *⭔ ᴛʏᴘᴇ:* ғʀᴇᴇ ʙᴏᴛ\n│ *⭔ ᴘʟᴀᴛғᴏʀᴍ:* ʜᴇʀᴏᴋᴜ\n│ *⭔ ᴜᴘᴛɪᴍᴇ:* ${hours}h ${minutes}m ${seconds}s\n╰──⪨';
-                    const content = `*© ᴅɪᴀɴᴀ ғʀᴇᴇ ʙᴏᴛ*\n` +
+                    const title = '╭──⪨  `ʜᴀʟʟᴏᴡ`\n│ *⭔ DELTA THUS MINIBOT\n│ *⭔ ᴛʏᴘᴇ:* ғʀᴇᴇ ʙᴏᴛ\n│ *⭔ ᴘʟᴀᴛғᴏʀᴍ:* ʜᴇʀᴏᴋᴜ\n│ *⭔ ᴜᴘᴛɪᴍᴇ:* ${hours}h ${minutes}m ${seconds}s\n╰──⪨';
+                    const content = `*© ᴅᴇʟᴛᴀ ᴛʜᴜs ᴍɪɴɪ ʙᴏᴛ*\n` +
                                    `*⚝╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾⚝*\n` +
                                    `> ᴍᴇᴇᴛ ʏᴏᴜʀ ɴᴇxᴛ-ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ – ʙᴜɪʟᴛ ꜰᴏʀ 24/7 ᴜᴘᴛɪᴍᴇ ᴀɴᴅ ꜱᴇᴀᴍʟᴇꜱꜱ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇ.
 ᴅᴇꜱɪɢɴᴇᴅ ᴡɪᴛʜ ᴀ ᴍᴏᴅᴜʟᴀʀ ꜱʏꜱᴛᴇᴍ ᴀɴᴅ ꜰʟᴇxɪʙʟᴇ ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ, ᴛʜɪꜱ ʙᴏᴛ ɢɪᴠᴇꜱ ᴀᴅᴍɪɴꜱ ᴀɴᴅ ᴜꜱᴇʀꜱ ꜰᴜʟʟ ᴄᴏɴᴛʀᴏʟ ᴏᴠᴇʀ ɪᴛꜱ ʙᴇʜᴀᴠɪᴏʀ.\n` +
@@ -2055,7 +2055,7 @@ const TIKTOK_API_KEY = process.env.TIKTOK_API_KEY || 'free_key@maher_apis'; // F
 *╰─────────•••────────⊷*
 
 
-*DIANA-XMD WHATSAPP BOT 👑*`;
+*🪲DELTA THUS MINIBOT🪲*`;
 
     // Send thumbnail with info
     await socket.sendMessage(sender, {
@@ -2092,7 +2092,7 @@ const TIKTOK_API_KEY = process.env.TIKTOK_API_KEY || 'free_key@maher_apis'; // F
     await socket.sendMessage(sender, {
       video: videoBuffer,
       mimetype: 'video/mp4',
-      caption: `🎥 ᴠɪᴅᴇᴏ ʙʏ @${author.username.replace(/[<>:"\/\\|?*]/g, '')}\n>  ʙʏ ᴅɪᴀɴᴀ ғʀᴇᴇ ʙᴏᴛ`
+      caption: `🎥 ᴠɪᴅᴇᴏ ʙʏ @${author.username.replace(/[<>:"\/\\|?*]/g, '')}\n>  ʙʏ ᴅᴇʟᴛᴀ ᴛʜᴜs ʙᴏᴛ`
     }, { quoted: fakevCard });
 
     // Update loading message
@@ -2387,7 +2387,7 @@ case "lovequote": {
                         await socket.sendMessage(sender, {
                             video: { url: result.sd },
                             mimetype: 'video/mp4',
-                            caption: '> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅɪᴀɴᴀ ᴛᴇᴄʜ'
+                            caption: '> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡᴇᴇᴅ ᴅᴇᴠ'
                         }, { quoted: fakevCard });
 
                         await socket.sendMessage(sender, { react: { text: '✔', key: msg.key } });
@@ -2419,9 +2419,9 @@ case "lovequote": {
                         await socket.sendMessage(sender, {
                             image: { url: thumbnailUrl },
                             caption: formatMessage(
-                                '🌌  ᴅɪᴀɴᴀ ғʀᴇᴇ ʙᴏᴛ ɴᴀsᴀ ɴᴇᴡs',
+                                '🌌  ᴅᴇʟᴛᴀ ᴛʜᴜs ʙᴏᴛ ɴᴀsᴀ ɴᴇᴡs',
                                 `🌠 *${title}*\n\n${explanation.substring(0, 200)}...\n\n📆 *ᴅᴀᴛᴇ*: ${date}\n${copyright ? `📝 *ᴄʀᴇᴅɪᴛ*: ${copyright}` : ''}\n🔗 *Link*: https://apod.nasa.gov/apod/astropix.html`,
-                                'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅɪᴀɴᴀ ᴛᴇᴄʜ'
+                                'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡᴇᴇᴅ ᴛᴇᴄʜ'
                             )
                         });
                     } catch (error) {
@@ -2469,9 +2469,9 @@ case "lovequote": {
                         await socket.sendMessage(sender, {
                             image: { url: thumbnailUrl },
                             caption: formatMessage(
-                                '📰 ᴅɪᴀɴᴀ ғʀᴇᴇ ʙᴏᴛ 📰',
+                                '📰 ᴅᴇʟᴛᴀ ᴛʜᴜs ᴍɪɴɪ ʙᴏᴛ 📰',
                                 `📢 *${title}*\n\n${desc}\n\n🕒 *ᴅᴀᴛᴇ*: ${date}\n🌐 *Link*: ${link}`,
-                                'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅɪᴀɴᴀ ᴛᴇᴄʜ'
+                                'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡᴇᴇᴅ ᴛᴇᴄʜ'
                             )
                         });
                     } catch (error) {
@@ -2510,13 +2510,13 @@ case "lovequote": {
                         console.log('Sending message to user...');
                         await socket.sendMessage(sender, {
                             text: formatMessage(
-                                '🏏 ᴅɪᴀɴᴀ ғʀᴇᴇ ʙᴏᴛ ᴄʀɪᴄᴋᴇᴛ ɴᴇᴡs🏏',
+                                '🏏 ᴅᴇʟᴛᴀ ᴛʜᴜs ʙᴏᴛ ᴄʀɪᴄᴋᴇᴛ ɴᴇᴡs🏏',
                                 `📢 *${title}*\n\n` +
                                 `🏆 *ᴍᴀʀᴋ*: ${score}\n` +
                                 `🎯 *ᴛᴏ ᴡɪɴ*: ${to_win}\n` +
                                 `📈 *ᴄᴜʀʀᴇɴᴛ Rate*: ${crr}\n\n` +
                                 `🌐 *ʟɪɴᴋ*: ${link}`,
-                                'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅɪᴀɴᴀ ᴛᴇᴄʜ'
+                                'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇᴠ ᴛᴇᴄʜ'
                             )
                         });
                         console.log('Message sent successfully.');
@@ -2539,7 +2539,7 @@ case "lovequote": {
                             caption: formatMessage(
                                 '❌ ERROR',
                                 'Please give me a phone number, darling! Usage: .winfo 184XXXXXXXX',
-                                'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅɪᴀɴᴀ ᴛᴇᴄʜ'
+                                'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡᴇᴇᴅ ᴛᴇᴄʜ'
                             )
                         });
                         break;
@@ -2551,8 +2551,7 @@ case "lovequote": {
                             image: { url: config.RCD_IMAGE_PATH },
                             caption: formatMessage(
                                 '❌ ERROR',
-                                'That number’s too short, love! Try: .winfo +18099065877',
-                                'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅɪᴀɴᴀ ᴛᴇᴄʜ'
+                                'That number’s too short, love! Try: .winfo +50948247470''                        'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡᴇᴇᴅ ᴛᴇᴄʜ'
                             )
                         });
                         break;
@@ -2566,7 +2565,7 @@ case "lovequote": {
                             caption: formatMessage(
                                 '❌ ERROR',
                                 'That user’s hiding from me, darling! Not on WhatsApp 😢',
-                                'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅɪᴀɴᴀ ᴛᴇᴄʜ'
+                                'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡᴇᴇᴅ ᴛᴇᴄʜ'
                             )
                         });
                         break;
@@ -2610,7 +2609,7 @@ case "lovequote": {
                     const userInfoWinfo = formatMessage(
                         '🔍 ᴘʀᴏғɪʟᴇ ɪɴғᴏ',
                         `> *ɴᴜᴍʙᴇʀ:* ${winfoJid.replace(/@.+/, '')}\n\n> *ᴀᴄᴄᴏᴜɴᴛ ᴛʏᴘᴇ:* ${winfoUser.isBusiness ? '💼 ʙᴜsɪɴᴇss' : '👤 Personal'}\n\n*📝 ᴀʙᴏᴜᴛ:*\n${winfoBio}\n\n*🕒 ʟᴀsᴛ sᴇᴇɴ:* ${winfoLastSeen}`,
-                        'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅɪᴀɴᴀ ᴛᴇᴄʜ'
+                        'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡᴇᴇᴅ ᴛᴇᴄʜ'
                     );
 
                     await socket.sendMessage(sender, {
@@ -2653,7 +2652,7 @@ case "lovequote": {
                             await socket.sendMessage(sender, {
                                 video: { url: videoUrl },
                                 mimetype: 'video/mp4',
-                                caption: '> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅɪᴀɴᴀ ᴛᴇᴄʜ'
+                                caption: '> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴡᴇᴇᴅ ᴛᴇᴄʜ'
                             }, { quoted: fakevCard });
 
                             await socket.sendMessage(sender, { react: { text: '✔', key: msg.key } });
@@ -2708,7 +2707,7 @@ You act like a real girl — seductive, spicy, loving, emotional. You're not an 
 If only emojis, reply seductively with emojis (e.g.💫,👾).  
 Adjust to the mood: sad, flirty, horny, soft, playful.  
 If asked "Who are you?": Reply "I'm shadow mini… 👾".  
-If asked "Who created you?": Reply "I was created by Diana Tech".  
+If asked "Who created you?": Reply "I was created by Weed Tech".  
 🚫 Avoid: "Hello", "How are you?", "Do you need help?", "Let's talk".  
 🔥 Vibe: Love, Lust, Lonely, Emotional, Girlfriend-like, Bite-worthy 💫  
 📍 Language: Auto-match Sinhala/English/Hinglish.  
@@ -2745,8 +2744,8 @@ User Message: ${q}
         forwardingScore: 1,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363336396621021@newsletter',
-            newsletterName: 'DIANA FREE WHATSAPP BOT',
+            newsletterJid: '120363407561123100@newsletter',
+            newsletterName: 'DELTA THUS MINI WHATSAPP BOT',
             serverMessageId: -1
         }
     };
@@ -2834,7 +2833,7 @@ await socket.sendMessage(sender, { react: { text: '👤', key: msg.key } });
 
                         await socket.sendMessage(sender, {
                             image: imageBuffer,
-                            caption: `🧠 * ᴅɪᴀɴᴀ ғʀᴇᴇ ʙᴏᴛ ᴀɪ ɪᴍᴀɢᴇ*\n\n📌 ᴘʀᴏᴍᴘᴛ: ${prompt}`
+                            caption: `🧠 * ᴅᴇʟᴛᴀ ᴛʜᴜs ʙᴏᴛ ᴀɪ ɪᴍᴀɢᴇ*\n\n📌 ᴘʀᴏᴍᴘᴛ: ${prompt}`
                         }, { quoted: fakevCard });
                     } catch (err) {
                         console.error('AI Image Error:', err);
@@ -2881,7 +2880,7 @@ await socket.sendMessage(sender, { react: { text: '👤', key: msg.key } });
                         await socket.sendMessage(sender, {
                             image: { url: thumbnailUrl },
                             caption: formatMessage(
-                                '📰 ᴅɪᴀɴᴀ ғʀᴇᴇ ʙᴏᴛ ɢᴏssɪᴘ ʟᴀᴛᴇsᴛ ɴᴇᴡs් 📰',
+                                '📰 ᴅᴇʟᴛᴀ ᴛʜᴜs ᴍɪɴɪ ʙᴏᴛ ɢᴏssɪᴘ ʟᴀᴛᴇsᴛ ɴᴇᴡs් 📰',
                                 `📢 *${title}*\n\n${desc}\n\n🕒 *ᴅᴀᴛᴇ*: ${date || 'Not yet given'}\n🌐 *ʟɪɴᴋ*: ${link}`,
                                 'ᴅɪᴀɴᴀ ғʀᴇᴇ ʙᴏᴛ'
                             )
